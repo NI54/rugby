@@ -1,0 +1,429 @@
+
+body{
+width: 100%;
+height:auto;
+background-color: white;
+margin:0;
+}
+
+
+/*========================================================================================= FUENTES ================================================================================*/
+@font-face {
+    font-family: 'titillium_webbold';
+    src: url('../fonts/titilliumweb-bold-webfont.eot');
+    src: url('../fonts/titilliumweb-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titilliumweb-bold-webfont.woff2') format('woff2'),
+         url('../fonts/titilliumweb-bold-webfont.woff') format('woff'),
+         url('../fonts/titilliumweb-bold-webfont.ttf') format('truetype'),
+         url('../fonts/titilliumweb-bold-webfont.svg#titillium_webbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'titillium_webregular';
+    src: url('../fonts/titilliumweb-regular-webfont.eot');
+    src: url('../fonts/titilliumweb-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titilliumweb-regular-webfont.woff2') format('woff2'),
+         url('../fonts/titilliumweb-regular-webfont.woff') format('woff'),
+         url('../fonts/titilliumweb-regular-webfont.ttf') format('truetype'),
+         url('../fonts/titilliumweb-regular-webfont.svg#titillium_webregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*========================================================================================= GENERAL ================================================================================*/
+
+#app{ position: absolute; width: 100%; bottom: 0; top: 0; overflow: hidden; max-width: 600px; left: 0; right: 0; margin-left: auto; margin-right: auto;	}
+
+.pageMia{height: 600px; background-image:url(../img/cuadrado-nuevo.png); overflow: hidden;}
+
+a{text-decoration:none;}
+
+a:hover{background-color:#73A3FF;}
+
+a:active{background-color:#73A3FF;}
+
+ol, ul {list-style:none;}
+
+.li-fixture:active{background-color:#73A3FF;}
+
+
+
+
+
+
+
+
+/*========================================================================================= HOME ================================================================================*/
+
+.background-home {background-image:url(../img/cuadrado-nuevo.png);overflow: hidden; height: 400px;}
+
+.bx_1{  background: url(img/cuadrado-nuevo.png);
+		z-index: 999;
+background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 9%, rgba(0,0,0,0.12) 83%, rgba(0,0,0,0.09) 87%, rgba(0,0,0,0.06) 92%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,rgba(0,0,0,0.65)), color-stop(83%,rgba(0,0,0,0.12)), color-stop(87%,rgba(0,0,0,0.09)), color-stop(92%,rgba(0,0,0,0.06)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 9%,rgba(0,0,0,0.12) 83%,rgba(0,0,0,0.09) 87%,rgba(0,0,0,0.06) 92%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0.65) 9%,rgba(0,0,0,0.12) 83%,rgba(0,0,0,0.09) 87%,rgba(0,0,0,0.06) 92%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 9%,rgba(0,0,0,0.12) 83%,rgba(0,0,0,0.09) 87%,rgba(0,0,0,0.06) 92%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0.65) 9%,rgba(0,0,0,0.12) 83%,rgba(0,0,0,0.09) 87%,rgba(0,0,0,0.06) 92%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+		box-shadow: -webkit-box-shadow: 0px 5px 9px 0px rgba(50, 50, 50, 1);
+		-moz-box-shadow: 0px 5px 9px 0px rgba(50, 50, 50, 1);
+		box-shadow: 0px 5px 9px 0px rgba(10, 10, 10, 1);
+}
+
+	  
+	  
+.bx_2{ padding-bottom:15%;background:url(../img/-rectangulo-desenfocado.png); z-index:-1; box-shadow: 0px -4px 25px -1px rgba(50, 50, 50, 0.66);}
+	   
+
+.btn_entrar{display:inline-block;padding:2% 24%; background-color:#73A3FF;font-family:'titillium_webbold'; color:white; border-radius:2px; margin-top:5%; font-size:6vw; text-align:center;}
+
+
+.logo-home{margin-top:20%; background-position:center;}
+
+.contador {color:#fff; font-family:'titillium_webregular'; font-size:7vw; display:inline-block; margin-left:5%; text-shadow:2px 1px 3px black; letter-spacing:1px; }
+
+.tiempo	{color:#fff; font-family:'titillium_webregular'; font-size:3.2vw; display:inline-block;text-shadow: 2px 1px 3px black; }
+
+
+
+
+
+/*========================================================================================= FIXTURE ================================================================================*/
+#fixture{background-image:url(../img/cuadrado-nuevo.png);}
+
+
+/*////////////////////////////////////////////////
+ //////////////  NUEVO FIXTURE  ///////////////
+ /////////////////////////////////////////////////
+*/
+
+#fixture h1{ color:white;font-family:'titillium_webbold'; font-size: 4.2vw;display: inline-block; padding: 1% 25%; margin-left: -7%;  background:rgba(33, 37, 30, 0.53); }
+
+#fixture h2 { color: white; text-align:left; font-family: 'titillium_webregular'; color: white; font-family: 'titillium_webregular'; font-size: 3.3vw; margin-left: -8%; background-color:#48573B; display: inline-block; padding-right: 50%; padding-left: 2%; padding-top: 0.5%;padding-bottom: 0.5%; font-weight:lighter;  margin-bottom: 1%;}
+
+
+ th{ color:white;font-family:'titillium_webbold'; font-size: 4.2vw; border:1px solid white; display: inline-block; padding: 1% 25%; margin-left: -8%;}
+
+
+td{color:white;font-family: 'titillium_webregular';  margin-left:-18%;}
+
+table{ border-collapse: separate; border-spacing: 20px 5px; padding-left:2%;}
+
+.slider-titulo{margin-top:2vh; margin-left:-0.5vw; font-size:3.4vw; font-family:'titillium_webbold'; color:white; display:inline-block;}
+
+.fecha{color:#fff; font-size:3.8vw; font-family:'titillium_webbold'; margin-left:-1.5vw;}
+
+.hora{font-family:'titillium_webbold';}
+
+.ul-principal{color:#fff; text-align:left;}
+
+
+
+
+
+
+
+
+
+
+/*========================================================================================= MENÚ ================================================================================*/
+
+.menu{ height: 400px; overflow: hidden;/*-webkit-filter: blur(1px); filter: blur(5px);*/ background:url(../img/cuadrado-nuevo.png); }
+
+
+.b-superior{ background:url(img/cuadrado-nuevo.png); 
+			 background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.16) 100%);
+			 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.16)));
+			 background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.16) 100%); 
+			 background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.16) 100%); 
+			 background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.16) 100%); 
+			 background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.16) 100%); 
+			 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#29000000',GradientType=0 ); 
+			 box-shadow:-webkit-box-shadow: 0px 5px 9px 0px rgba(15, 14, 14, 1);
+			 -moz-box-shadow:    0px 5px 9px 0px rgba(15, 14, 14, 1); 
+			 box-shadow: 0px 5px 9px 0px rgba(15, 14, 14, 1);}
+
+.logo-interior{margin-top:6%; display:inline-block; float:left; margin-left:7%;}
+
+.barra-menu{/*background-image:url(..//img/_menu.png); */background-repeat:no-repeat; margin-top:7%; display: inline-block; float:right; margin-right:5%; width:2%; min-width:1%; min-height:33px; max-width: 2%;}
+
+.secciones{margin-top:40%; width:50%; max-width:100%;}
+
+.letter-menu{ font-family:'titillium_webbold'; font-size: 5vw; color:#fff;}
+
+
+
+
+
+
+
+
+
+/*=========================================================================================  NOTICIAS  ================================================================================*/
+
+
+/*////////////////////////////////////////////////
+ //////////////  BANDERAS  ///////////
+ /////////////////////////////////////////////////
+*/
+
+.ol-detalles{margin-left:-15%;}
+.ol-li-detalles{display:inline-block; }
+
+/*////////////////////////////////////////////////
+ //////////////  NOTICIA 1  ////////////////
+ /////////////////////////////////////////////////
+*/
+.noticia-1{margin-top:15%;  margin-left: -7%;}
+
+.img-noticia-1{ width: 85%; margin-left: 2.5%;  border: 1px solid white;}
+
+.h1-noticia-1{font-family: 'titillium_webregular'; font-size:3.8vw;margin-left: 3%; letter-spacing: 1px; line-height: 23px;  margin-bottom: 3%;}
+
+.description-noticia-1{font-family: 'titillium_webregular';  font-size: 3vw; margin-left:3%; line-height: 19px; font-weight: lighter;}
+
+
+
+/*////////////////////////////////////////////////
+ //////////////  NOTICIA 2 /////////////////
+ /////////////////////////////////////////////////
+*/
+.noticia-2{}
+
+.h1-noticia-2{font-family: 'titillium_webregular'; font-size: 3.8vw;margin-left: -4%; letter-spacing:1px; line-height: 23px;  margin-bottom: 3%;}
+
+.description-noticia-2{font-family: 'titillium_webregular'; font-size:3vw; margin-left: -4%; line-height: 19px; font-weight: lighter;}
+
+
+
+/*////////////////////////////////////////////////
+ //////////////  NOTICIA 3  ////////////////
+ /////////////////////////////////////////////////
+*/
+.noticia-3{margin-top:5%;margin-left: -7%;}
+
+.img-noticia-3{width: 33%;border: 1px solid white;}
+
+.h1-noticia-3{font-family: 'titillium_webregular'; font-size:3.8vw;margin-left: 36%; margin-top: -34%; line-height: 23px;  margin-bottom: 3%;}
+
+.description-noticia-3{font-family: 'titillium_webregular';  font-size: 3vw; margin-left: 36%; line-height: 19px; font-weight: lighter;}
+
+.a-noticias{cursor:pointer; font-family: 'titillium_webregular'; font-size:3vw; color:white; font-weight: lighter;  padding-right: 6%; padding-top: 1%;}
+
+.ver-mas-img{cursor:pointer; background-image:url('..//img/mas-info.png');background-repeat:no-repeat;   background-position: top right; }
+
+.ver-mas{font-family: 'titillium_webregular';  font-size:3vw;color:white; margin-top: 0%;  display: inline-block;margin-left: 68%;  letter-spacing: 1px;}
+
+
+
+.linea{border-bottom:3px solid #48573B; width:94%; margin-bottom:2%; margin-left:-7%; margin-top:5%;}
+
+
+
+
+
+/*=========================================================================================  FASES	 ================================================================================*/
+
+
+/*////////////////////////////////////////////////
+ //////////////  GRUPOS  //////////////
+ /////////////////////////////////////////////////
+*/
+
+
+
+#fases h1 {  color:white;font-family:'titillium_webbold'; font-size: 4.2vw;display: inline-block;  background:rgba(33, 37, 30, 0.53); }
+
+.linea-grupos{border-bottom: 3px solid #48573B;  width:94vw; margin-bottom: 2%;  margin-left: 5%; margin-top: 9%;}
+
+.h1-grupoA{padding-right: 33%; margin-left: -7%; margin-bottom: -1%; padding-left:33%; padding-top: 1%;  padding-bottom: 1%;}
+
+.h1-grupoB{margin-top:15%;padding-right: 33%; margin-left: -7%; margin-bottom: -1%; padding-left: 33%;padding-top: 1%;  padding-bottom: 1%;}
+
+.h1-grupoC{margin-top:15%;padding-right: 33%; margin-left: -7%; margin-bottom: -1%; padding-left: 33%;padding-top: 1%;  padding-bottom: 1%;}
+
+.h1-grupoD{margin-top:15%;padding-right: 33%; margin-left: -7%; margin-bottom: -1%; padding-left: 33%;padding-top: 1%;  padding-bottom: 1%;}
+
+#fases ul{margin-left: -10%; margin-top:7%;}
+
+
+
+#grupos{background-image:url('../img/cuadrados-03.png');}
+
+.li-letras{margin-left:-20%; margin-top:10%;}
+
+.li-fixture{background-color:#5b694e; display:inline-block; color:#fff; font-family:'titillium_webbold'; font-size:5.5vw; margin-right:7%; padding:1% 4%; margin-top:3vh;}
+
+
+.linea2{border-bottom:1px solid white; width:93%; margin:auto; margin-top:2vh;}
+
+.li-paises{margin-bottom:2vh; margin-top:3vh;}
+
+.img-paises{width:8%; max-width:100%; margin-right:5vw;}
+
+.header-content-posiciones{margin-left: -5%;}
+
+.list-paises{font-size:13px; color:white; font-family:'titillium_webregular';}
+
+
+/*/////////////////////////////////////////////////////////////////////
+ //////////////  PARTIDOS(LLAVES)  ///////////////
+ //////////////////////////////////////////////////////////////////////
+*/
+
+
+
+
+
+
+
+
+/*========================================================================================= ALTURAS ================================================================================*/
+
+
+
+.row-1{height:100px;}
+.row-2{height:100px;}
+.row-3{height:100px;}
+.row-4{height:100px;}
+.row-5{height:100px;}
+.row-6{height:100px;}
+.row-7{height:100px;}
+.row-8{height:100px;}
+.row-9{height:100px;}
+.row-10{height:100px;}
+.row-11{height:100px;}
+.row-12{height:100px;}
+.row-half{height:100px;}
+
+.slide{
+	overflow:auto;
+	width:397px;
+	display:inline-block;
+}
+
+
+
+.ul-principal{
+	padding:0;
+	padding:0 10%;
+}
+
+.noticia-1{
+	margin-left:0;
+}
+
+.img-noticia-1{
+	width:98%;
+	margin:0;
+	text-align:center;
+	padding-bottom:2px;
+}
+
+.h1-noticia-1{
+	margin:0;
+	
+}
+
+.description-noticia-1{
+	margin:0;
+	
+}
+
+.ol-li-detalles{
+	width:12%;
+	
+}
+.ol-detalles{
+	text-align:center;
+}
+
+.ol-li-detalles img{
+	width:100%;
+}
+
+.ver-mas-img{
+	width: 100%;
+    display: inline-block;
+    background-size: auto 60%;
+    text-align: right;
+	
+}
+
+p.ver-mas{
+	margin-left:0;
+	padding-right: 7px;;
+}
+
+.h1-noticia-2{
+	margin:0;
+}
+
+.description-noticia-2{
+	margin:0;
+}
+
+.noticia-3{
+	margin:0;
+}
+
+.tabla-fixture{
+	width:100%;
+}
+
+table{
+border-spacing:initial;
+}
+
+#fixture h1{
+	padding:1% 0;
+	width:100%;
+	margin-left:0;
+}
+
+#fixture h2{
+	padding-right:0;
+	padding-left:6px;
+	width:100%;
+	margin-left:-3px;
+}
+
+#fases h1{
+	width:90%;
+	padding-right:0;
+	padding-left:0;
+	margin-left:0%;
+}
+
+.contador{
+margin:0;
+margin-right:5px;
+margin-left:5px;
+}
+
+.linea{
+	text-align:center;
+	width:100%;
+	margin:0;
+}
+
+.return-noticias{
+	width:10%;
+	padding-left:88%;
+}
